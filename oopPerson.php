@@ -3,7 +3,7 @@ class person {
     public $nom ;
     public $prenom ;
     public $adresse ;
-    public function __construct($nom,$prenom,$adress) {
+    public function __construct($nom,$prenom,$adresse) {
         $this->nom    = $nom;
         $this->prenom = $prenom;
         $this->adresse= $adresse;
