@@ -43,9 +43,4 @@ $E->ajouterNote(16);
 $E->ajouterNote(19);
 $E->calculerMoyenne();
 $E->afficherTableau();
-
-
-
-
-
 ?>
