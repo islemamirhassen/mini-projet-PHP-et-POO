@@ -15,7 +15,6 @@ class Etudiant {
         else{
             echo "corrigé votre note";
         }
-
     }
     function calculerMoyenne(){
         if(count($this->note)===0){
@@ -28,7 +27,7 @@ class Etudiant {
         return round($Moyenne,2);
     }
     function afficherTableau(){
-        echo"<table border='1' style='border-collapse: collapse;>";
+        echo"<table border='1'>";
         echo"<tr><th>les notes </th></tr>";
         foreach ($this->note as $note) {
         echo"<tr><td>".$note."</td></tr>";
